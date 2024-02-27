@@ -1,11 +1,10 @@
-# decompress-string
-Decompress a given string using recursive and iterative approach
+This project is about decompress a compressed string.
 Input is a compressed string of the format number[string] and the decompressed output
 form should be the string written number times.
 The input: 3[abc]4[ab]c  Would be output as abcabcabcababababc.
 One repetition can occur inside another. For example, 2[3[a]b] decompresses into aaabaaab
 
-Two solutions are provided:
+ Two solutions are provided:
     (a) Recursive approach
     (b) Iterative approach with stack<std::any>
 
