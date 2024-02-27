@@ -1,4 +1,5 @@
 This project is about decompress a compressed string.
+
 Input is a compressed string of the format number[string] and the decompressed output
 
 form should be the string written number times.
